@@ -33,78 +33,21 @@ header ul {
         font-size: 16px; /* Standard size for readability on iPhone */
     }
 
-    header {
-        font-size: 1.3rem; /* Slightly smaller for narrower screens */
-    }
-
-    header ul li {
-        margin-left: 10px; /* Adjust margin for smaller screens */
-    }
-
-    a {
-        padding: 0.2em;
-    }
-
-    h1 {
-        padding-top: 1.5rem;
-        font-size: 1.8em; /* Slightly smaller font on narrow screens */
-    }
-    
-    p {
-        padding: 0.4em;
-        max-width: 90%; /* Narrower width for readability on small screens */
-        line-height: 1.4rem;
-    }
-    
-    h2, h3 {
+    header{
         font-size: 1em;
-    }
-    
-    hr {
-        width: 80%;
     }
 }
 
 /* Extra adjustments for very narrow screens (iPhone SE and similar) */
 @media (max-width: 375px) {
-    header {
-        font-size: 1.2rem;
-    }
-
-    header ul li {
-        margin-left: 5px; /* Reduced margin for very small screens */
-    }
-
-    h1 {
-        padding-top: 1rem;
-        font-size: 1.5em;
-    }
-    
-    p {
-        padding: 0.3em;
-        max-width: 85%; /* Narrower for smaller screens */
-    }
-    
-    hr {
-        width: 70%;
+    header{
+        font-size: 1em;
     }
 }
 
-/* Additional adjustments for large iPhone screens with high pixel density */
+/* Additional adjustments for iPhone 14 Pro Max, other large iPhone screens */
 @media (max-width: 430px) and (min-device-pixel-ratio: 3) {
-    html {
-        font-size: 15px; /* Adjusted for high pixel density */
-    }
-
-    header {
-        font-size: 1.3rem;
-    }
-
-    h1 {
-        font-size: 1.7em;
-    }
-
-    p {
-        line-height: 1.4rem;
+    header{
+        font-size: 1em;
     }
 }
