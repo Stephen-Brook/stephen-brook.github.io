@@ -36,6 +36,18 @@ header ul {
     header{
         font-size: .5em;
     }
+
+    header ul li {
+        list-style: none;
+        padding: none;
+        margin-left: 10px;
+    }
+    
+    a {
+        padding: none;
+        text-decoration: none;
+    }
+       
 }
 
 /* Extra adjustments for very narrow screens (iPhone SE and similar) */
@@ -43,11 +55,31 @@ header ul {
     header{
         font-size: .5em;
     }
+    header ul li {
+        list-style: none;
+        padding: none;
+        margin-left: 10px;
+    }
+    
+    a {
+        padding: none;
+        text-decoration: none;
+    }
 }
 
 /* Additional adjustments for iPhone 14 Pro Max, other large iPhone screens */
 @media (max-width: 430px) and (min-device-pixel-ratio: 3) {
     header{
         font-size: .5em;
+    }
+    header ul li {
+        list-style: none;
+        padding: none;
+        margin-left: 10px;
+    }
+    
+    a {
+        padding: none;
+        text-decoration: none;
     }
 }
