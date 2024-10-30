@@ -12,11 +12,13 @@ h3 {
     font-size: 1.05rem;
     font-style: italic;
     padding-left: 0.75em;
+    text-align: center;
 }
 
 p {
     padding-left: 0.75em;
     padding-top: 0;
+    text-align: center;
 }
 
 .info {
@@ -35,9 +37,11 @@ p {
     h3 {
         font-size: 1rem;
         padding-left: 0.5em; /* Adjust padding for smaller screens */
+        text-align: center;
     }
 
     p {
         padding-left: 0.5em; /* Adjust padding for smaller screens */
+        text-align: center;
     }
 }
