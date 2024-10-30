@@ -1,0 +1,21 @@
+
+div{
+    padding-top: .5rem;
+    width: 70ch;
+    line-height: 1.5rem;
+    margin-left: 2rem;
+    text-align: center;
+    margin: auto;
+}
+h3{
+    font-size: 1.05rem;
+    font-style: italic;
+    padding-left: .75em;
+}
+p{
+    padding-left: .75em;
+    padding-top: 0;
+}
+.info{
+    text-align: center;
+}
