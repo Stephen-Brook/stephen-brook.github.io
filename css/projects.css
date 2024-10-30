@@ -33,6 +33,7 @@ p {
         line-height: 1.6rem;
         margin-left: 0; /* Center align on smaller screens */
         text-align: center;
+        margin: auto;
     }
     
     h3 {
