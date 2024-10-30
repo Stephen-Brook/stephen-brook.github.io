@@ -16,7 +16,7 @@ h3 {
 }
 
 p {
-    padding-left: 0.75em;
+    padding-left: 0.75rem;
     padding-top: 0;
     text-align: center;
 }
@@ -37,7 +37,7 @@ p {
     }
     
     p {
-        padding: 0.4em;
+        padding-left: 0.75rem;
         max-width: 90%; /* Narrower width for readability on small screens */
         line-height: 1.4rem;
     }
@@ -59,7 +59,7 @@ p {
     }
     
     p {
-        padding: 0.3em;
+        padding-left: 0.75rem;
         max-width: 85%; /* Narrower for smaller screens */
     }
     
@@ -79,6 +79,7 @@ p {
     }
 
     p {
+        padding-left: 0.75rem;
         line-height: 1.4rem;
     }
 }
