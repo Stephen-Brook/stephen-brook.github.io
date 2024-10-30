@@ -1,24 +1,73 @@
-html{
+html {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #222;
     color: #ccc;
     box-sizing: border-box;
-}
-h1{
-    padding-top: 3rem;
-    text-align: center;
-}
-h2{
-    padding-left: .25em;
-}
-h3{
-    padding: .25em;
-}
-p{
-    padding: .5em;
-    width: 70ch;
     line-height: 1.5rem;
 }
-hr{
+
+h1 {
+    padding-top: 2rem; /* Reduced for smaller screens */
+    text-align: center;
+}
+
+h2 {
+    padding-left: 0.5em;
+}
+
+h3 {
+    padding: 0.25em;
+}
+
+p {
+    padding: 0.5em;
+    max-width: 100%; /* Ensures it doesn't go beyond screen width */
+    line-height: 1.5rem;
+}
+
+/* Horizontal Rule Styling */
+hr {
     width: 90%;
+    margin: 1rem auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h1 {
+        padding-top: 1.5rem;
+        font-size: 1.5em; /* Smaller font for narrow screens */
+    }
+    
+    p {
+        max-width: 90%; /* Reduced width for smaller screens */
+        line-height: 1.3rem;
+    }
+    
+    h2, h3 {
+        font-size: 1em;
+    }
+    
+    hr {
+        width: 80%; /* Narrower HR on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 0.9em; /* Slightly smaller font on very narrow screens */
+    }
+    
+    h1 {
+        padding-top: 1rem;
+        font-size: 1.3em;
+    }
+    
+    p {
+        padding: 0.3em;
+        max-width: 85%;
+    }
+    
+    hr {
+        width: 70%;
+    }
 }
