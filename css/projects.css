@@ -1,72 +1,56 @@
-
-div{
-    padding-top: .5rem;
+div {
+    padding-top: 0.5rem;
     width: 70ch;
     line-height: 1.5rem;
-    margin-left: 2rem;
+    margin: auto; /* Centers div */
     text-align: center;
-    margin: auto;
 }
-h3{
+
+h3 {
     font-size: 1.05rem;
     font-style: italic;
-    padding-left: .75em;
+    padding-left: 0.75em;
 }
-p{
-    padding-left: .75em;
+
+p {
+    padding-left: 0.75em;
     padding-top: 0;
 }
-.info{
+
+.info {
     text-align: center;
 }
 
-/* Responsive Adjustments for iPhone and smaller screens */
+/* Responsive Adjustments for iPhone and Smaller Screens */
 @media (max-width: 430px) {
     html {
-        font-size: 16px; /* Standard size for readability on iPhone */
+        font-size: 16px; /* Base font size for readability */
+    }
+
+    div {
+        width: 90%; /* Full width for smaller screens */
+        padding-top: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        padding-left: 0.5em; /* Reduced padding for narrow screens */
+    }
+
+    p {
+        padding: 0.4em;
+        max-width: 100%; /* Ensures full width on small screens */
+        line-height: 1.4rem;
     }
 
     h1 {
         padding-top: 1.5rem;
-        font-size: 1.8em; /* Slightly smaller font on narrow screens */
-    }
-    
-    p {
-        padding: 0.4em;
-        max-width: 90%; /* Narrower width for readability on small screens */
-        line-height: 1.4rem;
-    }
-    
-    h2, h3 {
-        font-size: 1em;
-    }
-    
-    hr {
-        width: 80%;
-    }
-}
-
-/* Responsive Adjustments for iPhone and smaller screens */
-@media (max-width: 430px) {
-    html {
-        font-size: 16px; /* Standard size for readability on iPhone */
+        font-size: 1.8em; /* Adjusted font size for narrower screens */
     }
 
-    h1 {
-        padding-top: 1.5rem;
-        font-size: 1.8em; /* Slightly smaller font on narrow screens */
-    }
-    
-    p {
-        padding: 0.4em;
-        max-width: 90%; /* Narrower width for readability on small screens */
-        line-height: 1.4rem;
-    }
-    
-    h2, h3 {
-        font-size: 1em;
-    }
-    
     hr {
         width: 80%;
     }
@@ -74,25 +58,45 @@ p{
 
 /* Extra adjustments for very narrow screens (iPhone SE and similar) */
 @media (max-width: 375px) {
+    html {
+        font-size: 15px; /* Slightly smaller base font for very narrow screens */
+    }
+
+    div {
+        width: 95%; /* Full width on very small screens */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     h1 {
         padding-top: 1rem;
         font-size: 1.5em;
     }
-    
+
+    h3 {
+        font-size: 0.95rem;
+        padding-left: 0.25em; /* Further reduced padding for readability */
+    }
+
     p {
         padding: 0.3em;
-        max-width: 85%; /* Narrower for smaller screens */
+        max-width: 100%;
+        line-height: 1.3rem;
     }
-    
+
     hr {
         width: 70%;
     }
 }
 
-/* Additional adjustments for iPhone 14 Pro Max, other large iPhone screens */
+/* Adjustments for high-density screens like iPhone 14 Pro Max */
 @media (max-width: 430px) and (min-device-pixel-ratio: 3) {
     html {
-        font-size: 15px; /* Adjusted for high pixel density */
+        font-size: 15px; /* Slightly reduced font size for dense displays */
+    }
+
+    div {
+        width: 90%;
     }
 
     h1 {
