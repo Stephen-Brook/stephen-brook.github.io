@@ -35,13 +35,15 @@ p {
     }
     
     h3 {
-        text-align: center;
         font-size: 1rem;
-        margin-left: 0; /* Center align on smaller screens */
+        font-style: italic;
+        padding-left: 0em;
+        text-align: center;
     }
 
     p {
+        padding-left: 0em;
+        padding-top: 0;
         text-align: center;
-        margin-left: 0; /* Center align on smaller screens */
     }
 }
