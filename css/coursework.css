@@ -7,4 +7,5 @@ div{
 p{
     padding-top: 0;
     margin: auto;
+    max-width: 70ch;
 }
