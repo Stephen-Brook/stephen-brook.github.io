@@ -1,4 +1,4 @@
-div {
+.project {
     padding-top: 0.5rem;
     width: 70ch;
     max-width: 90%; /* Set a maximum width to fit smaller screens */
@@ -8,11 +8,18 @@ div {
     margin: auto;
 }
 
+h2{
+    text-decoration: underline;
+}
+
 h3 {
     font-size: 1.05rem;
-    font-style: italic;
     padding-left: 0.75em;
     text-align: center;
+}
+
+.date{
+    font-style: italic;
 }
 
 p {
@@ -21,8 +28,20 @@ p {
     text-align: center;
 }
 
-.info {
+
+
+.images{
     text-align: center;
+}
+
+img{
+    max-width: 33%;
+    max-height: 33em;
+    border-radius: 10px;
+}
+
+.link{
+    text-decoration: underline;
 }
 
 /* Responsive Adjustments for iPhone and smaller screens */
