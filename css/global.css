@@ -22,6 +22,10 @@ hr{
     max-width: 75%;
 }
 
+.images{
+    text-align: center;
+}
+
 .container{
     width: 50%;
     margin: 0 auto; 
