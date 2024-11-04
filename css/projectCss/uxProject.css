@@ -1,0 +1,31 @@
+.main{
+    color: rgb(215, 113, 53);
+}
+.stage{
+    color: rgb(86, 118, 207);
+}
+p{
+    padding-left: 2em;
+}
+.comment{
+    font-style: italic;
+    color: rgb(40, 136, 59);
+}
+
+.images{
+    text-align: center;
+}
+
+.img1{
+    border: 8px solid rgb(86, 118, 207);
+    max-width: 30%;
+    max-height: 33em;
+    border-radius: 10px;
+}
+
+.img2{
+    border: 8px solid rgb(86, 118, 207);
+    max-width: 45%;
+    max-height: 33em;
+    border-radius: 10px;
+}

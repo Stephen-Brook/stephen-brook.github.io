@@ -1,0 +1,96 @@
+header {
+    font-size: 1.5rem;
+    background-color: black;
+    border-radius: 10px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; /* Centers the header horizontally */
+    text-align: center; /* Ensures text inside is centered */
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    padding: 0.25em;
+    margin-left: 20px;
+}
+
+a {
+    padding: 0.25em;
+    text-decoration: none;
+    color: #a139ca;
+}
+
+a:hover {
+    background-color: #ccc;
+    border-radius: 10px;
+    color: #a139ca;
+}
+
+.header{
+    font-style: italic;
+}
+
+/* Responsive Adjustments for iPhone and smaller screens */
+@media (max-width: 430px) {
+    html {
+        font-size: 16px; /* Standard size for readability on iPhone */
+    }
+
+    header{
+        font-size: .8em;
+    }
+
+    header ul li {
+        list-style: none;
+        padding: none;
+        margin-left: 10px;
+    }
+    
+    a {
+        padding: none;
+        text-decoration: none;
+    }
+       
+}
+
+/* Extra adjustments for very narrow screens (iPhone SE and similar) */
+@media (max-width: 375px) {
+    header{
+        font-size: .8em;
+    }
+    header ul li {
+        list-style: none;
+        padding: none;
+        margin-left: 10px;
+    }
+    
+    a {
+        padding: none;
+        text-decoration: none;
+    }
+}
+
+/* Additional adjustments for iPhone 14 Pro Max, other large iPhone screens */
+@media (max-width: 430px) and (min-device-pixel-ratio: 3) {
+    header{
+        font-size: .8em;
+    }
+    header ul li {
+        list-style: none;
+        padding: none;
+        margin-left: 10px;
+    }
+    
+    a {
+        padding: none;
+        text-decoration: none;
+    }
+}
