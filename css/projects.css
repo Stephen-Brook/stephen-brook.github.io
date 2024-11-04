@@ -4,30 +4,11 @@
     font-style: italic;
 }
 
-.project{
-    color: rgb(86, 118, 207);
-}
-
-.projectLink{
-    color: #a139ca;
-    background-color: black;
-    border-radius: 10px;
-}
-
-.comment{
-    font-style: italic;
-    color: rgb(40, 136, 59);
-}
-
-p{
-    padding-left: 2em;
-}
-
 .images{
     text-align: center;
 }
 
-img{
+.img1{
     border: 8px solid rgb(86, 118, 207);
     max-width: 33%;
     max-height: 33em;

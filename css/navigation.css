@@ -25,6 +25,8 @@ header ul li {
 a {
     padding: 0.25em;
     text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
     color: #a139ca;
 }
 
