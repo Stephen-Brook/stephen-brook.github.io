@@ -18,6 +18,16 @@ p{
     font-size: larger;
 }
 
+li{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    max-width: 90ch;
+    padding-left: 3em;
+    margin: auto;
+    font-size: larger;
+    list-style: none;
+}
+
 hr{
     max-width: 75%;
 }

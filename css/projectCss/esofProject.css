@@ -1,0 +1,13 @@
+.img1{
+    border: 8px solid rgb(86, 118, 207);
+    max-width: 80%;
+    max-height: 33em;
+    border-radius: 10px;
+}
+
+.img2{
+    border: 8px solid rgb(86, 118, 207);
+    max-width: 30%;
+    max-height: 33em;
+    border-radius: 10px;
+}
