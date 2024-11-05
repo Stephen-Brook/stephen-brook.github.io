@@ -27,13 +27,13 @@ a {
     text-decoration: none;
     background-color: black;
     border-radius: 10px;
-    color: #a139ca;
+    color: #9d60e2;
 }
 
 a:hover {
     background-color: #ccc;
     border-radius: 10px;
-    color: #a139ca;
+    color: #9d60e2;
 }
 
 .header{
