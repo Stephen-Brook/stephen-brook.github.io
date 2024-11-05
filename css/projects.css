@@ -10,3 +10,10 @@
     max-height: 33em;
     border-radius: 10px;
 }
+
+.img2{
+    border: 8px solid rgb(86, 118, 207);
+    max-width: 45%;
+    max-height: 33em;
+    border-radius: 10px;
+}
