@@ -1,0 +1,25 @@
+li{
+    text-align: left;
+    padding: 1em 0em 1em 0em;
+    list-style:square;
+}
+
+h3{
+    padding-top: 0;
+    padding-left: 3rem;
+}
+
+h4{
+    padding-left: 3rem;
+}
+
+.inner{
+    font-size: medium;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.last{
+    font-size: medium;
+    padding-left: 4rem;
+}
