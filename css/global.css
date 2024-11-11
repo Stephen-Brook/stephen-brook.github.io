@@ -59,6 +59,25 @@ hr{
     color: rgb(40, 136, 59);
 }
 
+@media (max-width: 1366px) {
+    html {
+        font-size: 17px; /* Slightly larger for readability */
+    }
+    
+    p, li {
+        font-size: 1rem;
+        padding-left: 1.5em; /* Slight reduction */
+    }
+
+    .container {
+        width: 70%; /* Make container a bit wider */
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
 @media (max-width: 768px) {
     html {
         font-size: 16px; /* adjust base font size */
@@ -80,7 +99,7 @@ hr{
 
 @media (max-width: 480px) {
     p, li {
-        font-size: 0.9rem; /* slightly smaller text for very small screens */
+        font-size: 0.75rem; /* slightly smaller text for very small screens */
         padding-left: 0.5em;
     }
 

@@ -18,14 +18,20 @@
     border-radius: 10px;
 }
 
+@media (max-width: 1366px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
 @media (max-width: 768px) {
     h2 {
-        font-size: 1.5rem; /* slightly reduce heading size */
+        font-size: 1.0rem; /* slightly reduce heading size */
     }
 }
 
 @media (max-width: 480px) {
     h2 {
-        font-size: 1.2rem; /* further reduce heading size */
+        font-size: .75rem; /* further reduce heading size */
     }
 }
