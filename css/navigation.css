@@ -41,6 +41,28 @@ a:hover {
     font-size: .75em;
 }
 
+@media (max-width: 768px) {
+    html {
+        font-size: 16px; /* Standard size for readability on iPhone */
+    }
+
+    header{
+        font-size: .75em;
+    }
+
+    header ul li {
+        list-style: none;
+        padding: none;
+        margin-left: 5px;
+    }
+    
+    a {
+        padding: none;
+        text-decoration: none;
+    }
+}
+
+
 /* Responsive Adjustments for iPhone and smaller screens */
 @media (max-width: 430px) {
     html {
@@ -48,13 +70,13 @@ a:hover {
     }
 
     header{
-        font-size: .8em;
+        font-size: .7em;
     }
 
     header ul li {
         list-style: none;
         padding: none;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     
     a {
