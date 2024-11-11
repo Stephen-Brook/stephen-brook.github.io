@@ -84,6 +84,10 @@ hr{
     h3{
         font-size: 1.2rem;
     }
+
+    h4{
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -111,6 +115,10 @@ hr{
     h3{
         font-size: 1.0rem;
     }
+
+    h4{
+        font-size: 1.0rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -133,6 +141,10 @@ hr{
     }
 
     h3{
+        font-size: .75rem;
+    }
+
+    h4{
         font-size: .75rem;
     }
 }
