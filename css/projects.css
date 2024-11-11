@@ -17,3 +17,15 @@
     max-height: 33em;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem; /* slightly reduce heading size */
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem; /* further reduce heading size */
+    }
+}
