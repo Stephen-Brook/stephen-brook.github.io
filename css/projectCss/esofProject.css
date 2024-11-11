@@ -1,3 +1,11 @@
+.requirements{
+    text-align: left;
+    padding: 1em 0em 1em 0em;
+    margin-left: 2em;
+    list-style:square;
+}
+
+
 .img1{
     border: 8px solid rgb(86, 118, 207);
     max-width: 80%;

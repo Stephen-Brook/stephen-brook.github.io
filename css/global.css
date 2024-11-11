@@ -50,7 +50,46 @@ hr{
     color: rgb(215, 113, 53);
 }
 
+.yellow{
+    color: rgb(228, 228, 83)
+}
+
 .comment{
     font-style: italic;
     color: rgb(40, 136, 59);
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px; /* adjust base font size */
+    }
+    
+    p, li {
+        font-size: 1rem; /* adjust text size for better readability */
+        padding-left: 1em; /* reduce padding */
+    }
+
+    .container {
+        width: 90%; /* make container take up more width */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* slightly reduce heading size */
+    }
+}
+
+@media (max-width: 480px) {
+    p, li {
+        font-size: 0.9rem; /* slightly smaller text for very small screens */
+        padding-left: 0.5em;
+    }
+
+    h1 {
+        font-size: 1.2rem; /* further reduce heading size */
+    }
+
+    .container {
+        width: 100%; /* make container full width */
+        padding: 0.5rem; /* reduce padding */
+    }
 }
