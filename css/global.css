@@ -59,6 +59,13 @@ hr{
     color: rgb(40, 136, 59);
 }
 
+.footnote{
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+    color: rgb(40, 136, 59);
+}
+
 @media (max-width: 1366px) {
     html {
         font-size: 17px; /* Slightly larger for readability */
