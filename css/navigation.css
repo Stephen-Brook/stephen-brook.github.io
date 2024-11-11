@@ -41,6 +41,12 @@ a:hover {
     font-size: .75em;
 }
 
+.activePage {
+    background-color: #ccc;
+    border-radius: 10px;
+    color: #9d60e2;
+}
+
 @media (max-width: 768px) {
     html {
         font-size: 16px; /* Standard size for readability on iPhone */
