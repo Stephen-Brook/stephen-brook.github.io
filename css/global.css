@@ -76,6 +76,14 @@ hr{
     h1 {
         font-size: 1.8rem;
     }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -95,6 +103,14 @@ hr{
     h1 {
         font-size: 1.5rem; /* slightly reduce heading size */
     }
+
+    h2{
+        font-size: 1.0rem;
+    }
+
+    h3{
+        font-size: 1.0rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -110,5 +126,13 @@ hr{
     .container {
         width: 100%; /* make container full width */
         padding: 0.5rem; /* reduce padding */
+    }
+
+    h2{
+        font-size: .75rem;
+    }
+
+    h3{
+        font-size: .75rem;
     }
 }
