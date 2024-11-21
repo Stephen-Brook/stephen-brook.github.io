@@ -112,13 +112,41 @@
     <div class="container">
         <h2><span class="blue">Stage 5</span> (<span class="orange">Test</span>)  {</h2>
             <p>
-                <span class="comment">// Coming December 2024</span>
+                This stage required me to test the usability and user experience of my high-fidelity prototype. I started by creating a usability test dashboard outlining the process. This dashboard contained all of the information necessary to conduct the tests. I decided to test the same subjects from stage 1 of this project, as the entire system was developed around a persona generated from the subjects input. I tested the users on what I felt would be the most common use cases of the system:
+                <ol>
+                    <li>Sign into the app</li>
+                    <li>Complete the tutorial</li>
+                    <li>Navigate to the today view</li>
+                    <li>Mark a task as complete</li>
+                    <li>Create a task</li>
+                    <li>Edit a task</li>
+                    <li>Un-check a task</li>
+                    <li>Navigate to the month view</li>
+                    <li>Display a day of the month</li>
+                    <li>Mark a task in that day as complete</li>
+                    <li>Create a new task for that dat</li>
+                    <li>Return to the today view</li>
+                </ol>  
+                As each subject completed the required tasks, I measured the number of system errors, user inputs, and system failers. The survey ended by asking the subjects various questions about their experience.
+                <br><br>
+                I used a python program to input all collected data into a csv file, and then used other python programs to generate graphs based off of that data.
+                Based off of the data collected, I made various recommendations for the project moving foward such as fixing commonly encountered bugs, and creating a touch screen prototype to try fix touch target issues.
+                <br><br>
+                <span class="orange">return</span> (<a href="https://github.com/Stephen-Brook/UserInterfaceProjectCode">GitHub repositiory</a>);
             </p>
         <h2>}</h2>
     </div> 
 
     <div class="images">
-
+        <img class="img2" src="../../images/uxImages/UsabilityTestDashboard.jpg" alt="Usability Test Dashboard">
+    </div>
+    <div class="images">
+        <img class="img1" src="../../images/uxImages/time.png" alt="Time graph">
+        <img class="img1" src="../../images/uxImages/clicks.png" alt="User Input graph">
+        <img class="img1" src="../../images/uxImages/difficulty.png" alt="Difficulty graph">
+    </div>
+    <div class="images">
+        <img class="img2" src="../../images/uxImages/calculatedGraphs.png" alt="Calculated graphs">
     </div>
 
 </body>

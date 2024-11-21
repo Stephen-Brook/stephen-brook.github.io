@@ -11,3 +11,9 @@
     max-height: 33em;
     border-radius: 10px;
 }
+
+ol li{
+    margin-left: 3rem;
+    padding-left: 0;
+    list-style: decimal;
+}
