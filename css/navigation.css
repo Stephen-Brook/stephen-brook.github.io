@@ -40,11 +40,6 @@ a:hover {
     color: #C77DBB;
 }
 
-.header{
-    font-style: italic;
-    font-size: .75em;
-}
-
 .activePage {
     background-color: #ccc;
     border-radius: 10px;
@@ -58,10 +53,6 @@ a:hover {
 
     header{
         font-size: .75em;
-    }
-
-    .header{
-        font-size: .6rem;
     }
 
     header ul li {
@@ -84,10 +75,6 @@ a:hover {
 
     header{
         font-size: .5em;
-    }
-
-    .header{
-        font-size: .4rem;
     }
 
     header ul li {
