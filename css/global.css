@@ -9,24 +9,25 @@ html {
 h1{
     padding: .5rem;
     text-align: center;
+    line-height: 2rem;
 }
 
 p{
     max-width: 90ch;
-    padding-left: 2em;
-    margin: auto;
     font-size: larger;
+    padding-left: 3rem;
 }
 
 li{
     padding-top: .5em;
     padding-bottom: .5em;
+    padding-left: 2rem;;
     max-width: 90ch;
     padding-left: 3em;
-    margin: auto;
     font-size: larger;
     list-style: none;
 }
+
 
 hr{
     max-width: 75%;

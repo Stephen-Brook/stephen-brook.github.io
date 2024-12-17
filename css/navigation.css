@@ -17,23 +17,23 @@ header ul {
     margin: 0;
 }
 
-header ul li {
+header ul li a {
     padding: 0.25em;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 a {
     padding: 0.25em;
-    text-decoration: none;
     background-color: black;
     border-radius: 10px;
-    color: #9d60e2;
+    color: #C77DBB;
 }
 
 a:hover {
     background-color: #ccc;
     border-radius: 10px;
-    color: #9d60e2;
+    color: #C77DBB;
 }
 
 .header{
@@ -44,7 +44,7 @@ a:hover {
 .activePage {
     background-color: #ccc;
     border-radius: 10px;
-    color: #9d60e2;
+    color: #C77DBB;
 }
 
 @media (max-width: 768px) {
