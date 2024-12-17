@@ -1,19 +1,19 @@
 .img1{
-    border: 8px solid rgb(86, 118, 207);
+    border: .25rem solid rgb(86, 118, 207);
     max-width: 33%;
     max-height: 33em;
     border-radius: 10px;
 }
 
 .img2{
-    border: 8px solid rgb(86, 118, 207);
+    border: .25rem solid rgb(86, 118, 207);
     max-width: 45%;
     max-height: 33em;
     border-radius: 10px;
 }
 
 .projects_image1{
-    border: 8px solid rgb(86, 118, 207);
+    border: .25rem solid rgb(86, 118, 207);
     max-width: 15%;
     max-height: 33em;
     border-radius: 10px;
