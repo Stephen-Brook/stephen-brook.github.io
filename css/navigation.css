@@ -17,9 +17,12 @@ header ul {
     margin: 0;
 }
 
-header ul li a {
+header ul li{
     padding: 0.25em;
     margin-left: 20px;
+}
+
+header ul li a{
     text-decoration: none;
 }
 
@@ -57,14 +60,13 @@ a:hover {
     }
 
     header ul li {
-        list-style: none;
         padding: none;
-        margin-left: 5px;
+        margin: none;
+        
     }
     
     a {
         padding: none;
-        text-decoration: none;
     }
 }
 
@@ -76,18 +78,16 @@ a:hover {
     }
 
     header{
-        font-size: .7em;
+        font-size: .5em;
     }
 
     header ul li {
         list-style: none;
         padding: none;
-        margin-left: 5px;
+        margin: none;
     }
     
     a {
         padding: none;
-        text-decoration: none;
     }
-       
 }
