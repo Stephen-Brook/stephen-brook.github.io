@@ -60,6 +60,10 @@ a:hover {
         font-size: .75em;
     }
 
+    .header{
+        font-size: .6rem;
+    }
+
     header ul li {
         padding: none;
         margin: none;
@@ -80,6 +84,10 @@ a:hover {
 
     header{
         font-size: .5em;
+    }
+
+    .header{
+        font-size: .4rem;
     }
 
     header ul li {
