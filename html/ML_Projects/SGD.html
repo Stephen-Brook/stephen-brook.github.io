@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stochastc Gradinet Descent</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/navigation.css">
+    <link rel="stylesheet" href="../../css/projectCss/uxProject.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../coursework.html">Coursework</a></li>
+            <li><a class="activePage" href="../projects.html">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </header>
+    
+    <h1><a href="../projects.html"> <-</a><span class="green"> Projects / </span>Stochastic Gradient Descent</h1>
+    <h3 class="footnote">// This project was completed June 2024</h3>
+    <hr>
+
+    <!-- About -->
+    <div class="container">
+        <h2><span class="blue">About</span>  {</h2>
+            <p>
+                I completed this project to introduce myself to the world of machine learning. This project walks through my process of implementing stochastic gradient descent to accurately predict housing prices based off of square footage, number of bedrooms, and number of bathrooms.
+                <br><br>
+                All of my code, and the dataset I used are available here:
+                <br><br>
+                <span class="orange">return</span> (<a href="https://github.com/Stephen-Brook/Stochastic-Gradient-Descent">GitHub repositiory</a>);
+            </p>
+        <h2>}</h2>
+    </div>
+    
+    <!-- First Steps -->
+    <div class="container">
+        <h2><span class="blue">First Steps</span>  {</h2>
+            <p>
+                I began by familiarizing myself with the calculus and linear algebra surrounding Stochastic Gradient Descent, and the notation of Machine Learning. This process taught me how machines "learn", and how to implement that learning.
+                <br><br>
+                Attatched are a selection of my notes on these topics:
+                <br><br>
+                <span class="orange">return</span> (<a download href="../../Downloadable/ML_Initial_Notes.pdf">Initial Machine Learning Notes</a>);
+            </p>
+        <h2>}</h2>
+    </div>
+
+    <!-- Initial Implementations -->
+    <div class="container">
+        <h2><span class="blue">Initial implementation of Stochastic Gradient Descent</span>  {</h2>
+            <p>
+                This stage started with implementing the update function, with a single dimensional input. In other words, one x to one y.
+                <br><br>
+                I decided that the best implementation would use a small data set, that I could easily understand and quickly iterate over. In this case, I chose to use a dataset in the real estate market. For the initial implementation, this model is designed to take in an input variable of square footage, and output an estimated price.
+                <br><br>
+                After implementing this algorithm, the program would produce an output in the form of y=mx+b, which I then plotted against the dataset to see how accurate the function is.
+                <br><br>
+                The image below shows all of the initial data in green, with a line of best fit plotted by desmos also in green. The black line is the formula that this initial program output.
+            </p>
+        <h2>}</h2>
+    </div> 
+    <div class="images">
+        <img class="img1" src="../../images/ml_images/SGD_Update_Function.png" alt="Stochastic Gradient Descent Update Functions">
+    </div>
+    <div class="images">
+        <img class="img1" src="../../images/ml_images/functionGradientDescent.png" alt="Stochastic Gradient Descent Initial Result">
+    </div>
+
+    <!-- More Math -->
+    <div class="container">
+        <h2><span class="blue">Multi-Dimensional Inputs</span>  {</h2>
+            <p>
+                As mentioned before, the price of a house depends on much more than just the square footage. In other words, I need to make this process work when the input x is multi-dimensional.
+                <br><br>
+                Attatched are my notes for this process:
+                <br><br>
+                <span class="orange">return</span> (<a download href="../../Downloadable/Stochastic_Gradient_Descent_Notes.pdf">Initial Machine Learning Notes</a>);
+            </p>
+        <h2>}</h2>
+    </div> 
+
+    <!-- Final Implementation -->
+    <div class="container">
+        <h2><span class="blue">Multi-Dimensional Inputs</span>  {</h2>
+            <p>
+                Finally, I created a stochastic gradient descent algorithm designet to take in, and utilize a vector of inputs.
+                <br><br>
+                Because x is now a multi-dimensional vector, I can no longer represent the data as a simple line. I chose to represent the data as I did for the initial implementation, with x being the square footage, and y being the predicted price.
+                <br><br>
+                The image below shows the same data from the initial implementation of the algorithm. The green points are the initial data, the green line is a line of best fit from desmos. The black line is the initial version of this algorithm, and the red points are the results of feeding the initial data through the updated final algorithm.
+                <br><br>
+            </p>
+        <h2>}</h2>
+    </div> 
+    <div class="images">
+        <img class="img1" src="../../images/ml_images/stochasticGradientDescent1.png" alt="Stochastic Gradient Descent Final Result 1">
+    </div>
+    <div class="images">
+        <img class="img1" src="../../images/ml_images/stochasticGradientDescent2.png" alt="Stochastic Gradient Descent Final Result 2">
+    </div>
+
+</body>
+</html>
