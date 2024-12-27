@@ -19,3 +19,21 @@
     max-height: 33em;
     border-radius: 10px;
 }
+
+@media (max-width: 1366px) {
+
+    .img2{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 60%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+   
+}

@@ -23,16 +23,52 @@
     h2 {
         font-size: 1.2rem;
     }
+    .img1{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 60%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+    .projects_image1{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 25%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
 }
 
 @media (max-width: 768px) {
     h2 {
         font-size: 1.0rem; /* slightly reduce heading size */
     }
+    .img1{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 70%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+    .projects_image1{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 25%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
 }
 
 @media (max-width: 480px) {
     h2 {
         font-size: .75rem; /* further reduce heading size */
+    }
+    .img1{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 75%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+    .projects_image1{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 25%;
+        max-height: 33em;
+        border-radius: 10px;
     }
 }

@@ -17,3 +17,48 @@ ol li{
     padding-left: 0;
     list-style: decimal;
 }
+
+@media (max-width: 1366px) {
+    .img1{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 60%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+    .img2{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 60%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img1{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 70%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+    .img2{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 70%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .img1{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 75%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+    .img2{
+        border: .25rem solid rgb(86, 118, 207);
+        max-width: 75%;
+        max-height: 33em;
+        border-radius: 10px;
+    }
+}
