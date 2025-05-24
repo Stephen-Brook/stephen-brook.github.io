@@ -71,6 +71,18 @@ hr{
     color: rgb(40, 136, 59);
 }
 
+.cursor {
+    display: inline-block;
+    width: 1ch;
+    animation: blink 1s steps(1) infinite;
+    color: rgb(165, 159, 159);
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
 @media (max-width: 1366px) {
     html {
         font-size: 17px; /* Slightly larger for readability */

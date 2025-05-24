@@ -18,21 +18,24 @@
             <li><a href="html/contact.html">Contact</a></li>
         </ul>
     </header>
-
-    <h1>Stephen Brook</h1>
+    <h1 id="typing-header">Stephen Brook</h1>
     <hr>
     <div class="container">
         <h2><span class="blue">About Me</span> {</h2>
         <p>
             I’m a junior studying computer science at Montana State University, where I’ve achieved a 3.93 cumulative GPA across all my courses. I’m passionate about exploring new challenges, learning continuously, and pushing myself to grow. Currently, I’m seeking internships or other opportunities to gain hands-on experience in computer science.
-            <br>
-            <br>
+            <br><br>
             <span class="orange">return</span> (<a download href="Downloadable/Stephen_Brook_Resume.pdf">Resume.pdf</a>);
         </p>
         <h2>}</h2>
         <br>
-
     </div>
 
+    <script src="javascript/cursor.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            typeWriterEffect("typing-header", 150);
+        });
+    </script>
 </body>
 </html>
